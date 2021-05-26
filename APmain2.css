@@ -1,0 +1,1632 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    }
+
+    .topnav {
+        background-color: none;
+        position:absolute;
+        top: 0;
+        right: 0;
+        width:100%;
+        z-index:100;
+        }
+        
+        .topnav .topname a{
+        float: left;
+        color: black;
+        text-decoration: none;
+        font-size: 0.7em;
+        width: 12%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        text-align: center; /* If you want the text to be centered */
+        }
+        
+        .topnav a {
+        float: right;
+        padding: 12px;
+        color: black;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 550;
+        width: 10%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        text-align: center; /* If you want the text to be centered */
+        transition: transform .3s;
+        perspective: 1000px;
+        }
+        .topnav a:hover {
+        color:#CF6212;
+        -ms-transform: scale(1.05); /* IE 9 */
+        -webkit-transform: scale(1.05); /* Safari 3-8 */
+        transform: scale(0.7); 
+        }
+
+.container1 {
+    position: relative;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.87) 7.84%,
+     rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, rgba(223, 207, 182, 0.6) 0%,
+     rgba(240, 221, 221, 0.6) 100%);
+    background-size:cover;
+    width: 100%;
+    padding-bottom:50%;
+}
+
+.rightcont1 {
+    position: relative;
+    float:left;
+    background-color:none;
+    width: 50%;
+    padding-bottom: 10%;
+
+
+}
+.rightcont1 h3 {
+position: relative;
+background-color:none;
+color:#414041;
+width: 8em;
+height: 2.7em;
+font-style: normal;
+font-weight: bold;
+line-height: 1.3em;
+margin-left: 1em;
+margin-top: 0.5em;
+top:1em;
+font-size:5vw;
+}
+.rightcont1 p {
+    position: absolute;
+    background-color:none;
+    width: 60%;
+    font-size:1vw;
+    color:#464646;
+    font-style: normal;
+    font-weight:lighter;
+    line-height: 2.3em;
+    margin-left: 5em;
+
+    
+    
+    }
+.showreelbtn {
+    background: linear-gradient(90deg, #AF2D2D 0%, #EF713B 100%);
+    box-shadow: 0px 4px 8px rgba(251, 78, 78, 0.43);
+    border-radius: 34px;
+    color: #F4F1F1;
+    padding: 1vw 2.6vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    font-weight: 100;
+    cursor: pointer;
+    margin-top:9em;
+    margin-left:3.4em;
+    transition: transform .3s;
+	perspective: 1000px;
+}
+.showreelbtn:hover, .serv1:hover, .serv2:hover, .serv3:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.10); 
+}
+
+.leftcont1 {
+    position: relative;
+    float:left;
+    background-color:none;
+    width: 50%;
+
+
+}
+.leftcont1 img {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    top:3vw;
+    left:0%;
+}
+.container2 {
+    position: relative;
+    background: white;
+    background-size:cover;
+    width: 100%;
+    padding-bottom:15%;
+}
+.topcont {
+
+    position: relative;
+    float:left;
+    background-color:none;
+    width: 100%;
+    vertical-align: top; /* here */
+}
+.logoholder {
+    position: relative;
+    width: 80%;
+    padding:2em 0em;
+    background: #FFFFFF;
+    box-shadow: 24px 13px 23px -2px rgba(163, 162, 161, 0.1), -28px 12px 23px -2px rgba(163, 162, 161, 0.1);
+    border-radius: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    top:-1.5em;
+    display: block;
+}
+.logoholder img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 85%;
+    height: auto;
+}
+
+.botcont1 {
+    position: absolute;
+    float:left;
+    background-color:none;
+    width: 60%;
+    height: auto;
+    left:20%;
+    bottom:15%;
+}
+.botcont1 img{
+    width: 100%;
+    height: auto;
+}
+.imgtext {
+    position: absolute;
+    top: 47%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    line-height: 0.4em;
+}
+.container3 {
+    position: relative;
+    background-image:url(sbg4.png);
+    background-size:cover;
+    width: 100%;
+    padding-bottom:45%;
+}
+.topcont2 {
+    position: absolute;
+    float:left;
+    background-color:none;
+    width: 100%;
+    top:5%;
+}
+.topcont2 h2 {
+text-align:center;
+font-size: 3vw;
+background-color:none;
+font-variant: small-caps;
+}
+.topcont2 p {
+position: relative;
+background-color:none;
+text-align:center;
+width: 100%;
+font-size:1vw;
+font-variant: small-caps;
+
+    
+}
+.botcont2 {
+    position: absolute;
+    float:left;
+    top:43%;
+    background-color:none;
+    width: 60%;
+    height: auto;
+    padding-bottom: 10%;
+    text-align: center;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.stexthide {
+    display:none;
+}
+.serv1 {
+    position: absolute;
+    float:left;
+    width:30%;
+    height:180%;
+    padding-bottom: 0%;
+    background:#FCFCFC;
+    box-shadow: 21px 7px 53px -2px rgba(170, 167, 164, 0.05), 1px 25px 37px -2px rgba(170, 167, 164, 0.05);
+    border-radius: 23px;
+    transition: transform .3s;
+	perspective: 1000px;
+}
+.serv1:hover span {
+    display:none;
+}
+.serv2:hover span {
+    display:none;
+}
+.serv3:hover span {
+    display:none;
+}
+.serv1:hover .iconify {
+    display:none;
+}
+.serv2:hover .iconify {
+    display:none;
+}
+.serv3:hover .iconify {
+    display:none;
+}
+.serv1:hover:before {
+    content:"I will bring your project audio to its final polished state."
+    " I offer full-range post production services: from pre-production planning, sound editing,"
+    " and mixdown to whatever format and platform you desire. I deliver anything from regular stereo mixes"
+    " to complex surround soundscapes to television, film festivals and streaming sites."; 
+    position: absolute;
+    text-align:center;
+    font-size:0.9vw;
+    top:13%;
+    width: 90%;
+    right:5%;
+    font-weight: lighter;
+    color:#555659;
+    line-height: 1.5em;
+}
+.serv2:hover:before {
+    content:"I offer a variety of recording services."
+    " Film/TV-set recordist (boom), dialogue re-recording sessions,"
+    " foley, custom atmosphere tracks, podcast and radio-shows,"
+    " multi-channel band & orchestral recordings to name a few."
+    " Drop me a message to see if I'm a fit for your project!";
+    background-color:none;
+    position: absolute;
+    text-align:center;
+    top:20%;
+    font-size:0.9vw;
+    width:90%;
+    right:5%;
+    color:#555659;
+    line-height: 1.5em;
+}
+.serv3:hover:before { 
+    content:"My professional ventures sometimes lead me to a stage."
+    " I work with a whole range of analogue as well as digital mixing desks."
+    " This includes all kinds of concerts, small pub gigs, theatre, opera, festivals and fine-tuned classical music.";
+    position: absolute;
+    text-align:center;
+    top:25%;
+    font-size:0.9vw;
+    width:90%;
+    right:5%;
+    color:#555659;
+    line-height: 1.5em;
+}
+.iconify {
+    background-color:none;
+    margin-top:2em;
+}
+.serv2 {
+    position: absolute;
+    float:left;
+    width:30%;
+    height:180%;
+    border-radius: 50%;
+    left:35.5%;
+    background: #FCFCFC;
+    box-shadow: 21px 7px 53px -2px rgba(170, 167, 164, 0.05), 1px 25px 37px -2px rgba(170, 167, 164, 0.05);
+    border-radius: 22px;
+    padding-bottom: 0%;
+    transition: transform .3s;
+	perspective: 1000px;
+}
+.serv3 {
+    position: absolute;
+    float:right;
+    right:0;
+    width:30%;
+    height:180%;
+    border-radius: 50%;
+    background: #FCFCFC;
+    box-shadow: 21px 7px 53px -2px rgba(170, 167, 164, 0.05), 1px 25px 37px -2px rgba(170, 167, 164, 0.05);
+border-radius: 22px;
+    padding-bottom: 0%;   
+    transition: transform .3s;
+	perspective: 1000px;
+}
+.serv1 p, .serv2 p, .serv3 p {
+    position: relative;
+    background-color:none;
+    bottom:0;
+    float:right;
+    width: 100%;
+    margin-top:1vw;
+    padding-top:1vw;
+    padding-bottom:1vw;
+}
+
+.container4 {
+    position: relative;
+    background-color: none;
+    width: 100%;
+    padding-bottom:0%;
+}
+.topcont3 {
+    position: absolute;
+    float:left;
+    background-color:none;
+    width: 100%;  
+    padding-top:7%;
+}
+.topcont3 h2 {
+    text-align:center;
+    font-size: 3vw;
+    font-variant: small-caps;
+}
+.botcont3 {
+    background-image:url("wbg3.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    text-align:center;
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+.botcont31 {
+    padding:15%;
+    padding-top:30%;
+    background-color:none;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    text-align:center;
+}
+.imgtextwrap {
+    position: relative;
+    color: white;
+    background-color:none;
+}
+.botcont3 img {
+    width: 100%;
+    height: auto;
+}
+.hideimg {
+    display:none;
+}
+.fttitle {
+    position: absolute;
+    width: 50%;
+    padding-bottom:15%;
+    background-color:none;
+
+}
+.fttitle p {
+position: absolute;
+bottom: 4%;
+right:28%;
+font-size:2.5vw;
+font-variant: small-caps;
+font-weight: bold;
+}
+.ft1  {
+    position: absolute;
+    width: 50%;
+    top:17%;
+    background-color:green;
+
+}
+.ft2  {
+    position: absolute;
+    width: 50%;
+    top:15%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft1 p {
+position: absolute;
+bottom: 4%;
+left:23%;
+font-variant: small-caps;
+font-weight: bold;
+font-size:1.4vw;
+}
+
+.ft2 p {
+position: absolute;
+left:23%;
+font-size:1vw;
+text-align:left;
+font-weight: lighter;
+}
+.ft4 {
+    position: absolute;
+    width: 50%;
+    top:20%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft4 p {
+    position: absolute;
+    left:23%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+}
+
+.ft5 {
+    position: absolute;
+    width: 50%;
+    top:26%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft5 p {
+    position: absolute;
+    left:23%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft6 {
+    position: absolute;
+    width: 50%;
+    top:32%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft6 p {
+    position: absolute;
+    left:23%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft7 {
+    position: absolute;
+    width: 50%;
+    top:38%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft7 p {
+    position: absolute;
+    left:23%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft8 {
+    position: absolute;
+    width: 100%;
+    top:17%;
+    background-color:green;
+}
+.ft8 p {
+position: absolute;
+bottom: 4%;
+left:41%;
+font-variant: small-caps;
+font-weight: bold;
+font-size:1.4vw;
+}
+.ft9 {
+    position: absolute;
+    width: 100%;
+    top:15%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft9 p {
+    position: absolute;
+    left:41%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+    .ft10 {
+        position: absolute;
+        width: 100%;
+        top:41%;
+        background-color:green;
+    }
+    .ft10 p {
+    position: absolute;
+    bottom: 4%;
+    left:41%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:1.4vw;
+    }
+    .ft101 {
+        position: absolute;
+        width: 100%;
+        top:39%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft101 p {
+        position: absolute;
+        left:41%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+    }
+.ft11 {
+    position: absolute;
+    width: 100%;
+    top:20%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft11 p {
+    position: absolute;
+    left:41%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft12 {
+    position: absolute;
+    width: 100%;
+    top:25%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft12 p {
+    position: absolute;
+    left:41%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft13 {
+    position: absolute;
+    width: 100%;
+    top:17%;
+    background-color:green;
+}
+.ft13 p {
+position: absolute;
+bottom: 4%;
+left:69%;
+font-variant: small-caps;
+font-weight: bold;
+font-size:1.4vw;
+}
+.ft14 {
+    position: absolute;
+    width: 100%;
+    top:15%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft14 p {
+    position: absolute;
+    left:69%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft15 {
+    position: absolute;
+    width: 100%;
+    top:20%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft15 p {
+    position: absolute;
+    left:69%;
+    font-size:1vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+    .lptitle {
+        position: absolute;
+        width: 50%;
+        padding-bottom:15%;
+        top:49%;
+        background-color:none;
+    }
+    .lptitle p {
+    position: absolute;
+    right:21%;
+    font-size:2.5vw;
+    font-variant: small-caps;
+    font-weight: bold;
+    }
+    .ft16 {
+        position: absolute;
+        width: 100%;
+        top:65%;
+        background-color:none;
+    }
+    .ft16 p {
+    position: absolute;
+    bottom: 4%;
+    left:11%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:1.4vw;
+    }
+    .ft17 {
+        position: absolute;
+        width: 50%;
+        top:63%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft17 p {
+        position: absolute;
+        left:22%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft18 {
+        position: absolute;
+        width: 100%;
+        top:77%;
+        background-color:green;
+
+    }
+    .ft18 p {
+    position: absolute;
+    bottom: 4%;
+    left:11%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:1.4vw;
+    }
+    .ft19 {
+        position: absolute;
+        width: 50%;
+        top:75%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft19 p {
+        position: absolute;
+        left:22%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft20 {
+        position: absolute;
+        width: 100%;
+        top:89%;
+        background-color:green;
+    }
+    .ft20 p {
+    position: absolute;
+    bottom: 4%;
+    left:11%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:1.4vw;
+    }
+    .ft21 {
+        position: absolute;
+        width: 50%;
+        top:87%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft21 p {
+        position: absolute;
+        left:22%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft22 {
+        position: absolute;
+        width: 100%;
+        top:65%;
+        background-color:green;
+    }
+    .ft22 p {
+    position: absolute;
+    bottom: 4%;
+    left:55%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:1.4vw;
+    }
+    .ft23 {
+        position: absolute;
+        width: 100%;
+        top:63%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft23 p {
+        position: absolute;
+        left:55%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft24 {
+        position: absolute;
+        width: 100%;
+        top:63%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft24 p {
+        position: absolute;
+        left:73%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft25 {
+        position: absolute;
+        width: 100%;
+        top:77%;
+        background-color:green;
+    }
+    .ft25 p {
+    position: absolute;
+    bottom: 4%;
+    left:55%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:1.4vw;
+    }
+    .ft26 {
+        position: absolute;
+        width: 100%;
+        top:75%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft26 p {
+        position: absolute;
+        left:55%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft27 {
+        position: absolute;
+        width: 100%;
+        top:81%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft27 p {
+        position: absolute;
+        left:55%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft28 {
+        position: absolute;
+        width: 100%;
+        top:25%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft28 p {
+        position: absolute;
+        left:69%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft29 {
+        position: absolute;
+        width: 100%;
+        top:30%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft29 p {
+        position: absolute;
+        left:69%;
+        font-size:1vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+.container5 {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    padding-bottom:5%;
+}
+.worktext {
+    padding-top:10%;
+    background-color:none;
+    text-align:center;
+}
+.worktext p{
+    font-size:2vw;
+    color:#3D3C3C;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.mailtext {
+    position: relative;
+    left:15%;
+    width: 50%;
+    background-color:none;
+    text-align:center;
+
+}
+.mailtext p{
+    font-size:4vw;
+    text-decoration: underline;
+    transition: transform .3s;
+	perspective: 1000px
+}
+.mailtext a {
+    color:#3D3C3C;
+}
+.mailtext p:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.10); 
+    cursor:pointer;
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+.topnav a {
+    font-size:2vw;
+}
+.name {
+    display:none;
+}
+.container1 {
+
+    padding-bottom:165%;
+}
+.rightcont1 {
+    position: relative;
+    float:left;
+    background-color:none;
+    width: 100%;
+    padding-bottom: 1%;
+}
+.rightcont1 h3 {
+position: relative;
+background-color:none;
+color:#414041;
+width: 70%;
+height: 2.7em;
+font-style: normal;
+font-weight: bold;
+line-height: 1.3em;
+margin: 0 auto;
+margin-top: 0.5em;
+top:1.5em;
+font-size: 8vw;
+text-align:center;
+}
+.rightcont1 p {
+    position: absolute;
+    background-color:none;
+    width: 70%;
+    font-size:3vw;
+    color:#464646;
+    font-style: normal;
+    font-weight:lighter;
+    line-height: 2.3em;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align:center;
+    margin-top:6em;
+    }
+.leftcont1 {
+    position: relative;
+    background-color:none;
+    width: 100%;
+    padding-bottom:1%;
+    margin-top:17em;
+}
+.leftcont1 img {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    top:6vw;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+}
+.container2 {
+    background-color:none;
+}
+.topcont {
+
+    position: relative;
+    float:left;
+    background-color:white;
+    width: 100%;
+    vertical-align: top; /* here */
+}
+
+.logoholder {
+    position: relative;
+    width: 100%;
+    padding:1em 0em;
+    box-shadow:none;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    top:0em;
+    display: block;
+}
+.logoholder img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 85%;
+    height: auto;
+}
+.botcont1 {
+    position: absolute;
+    float:left;
+    background-color:red;
+    padding-bottom:10%;
+    width: 60%;
+    height: auto;
+    left:20%;
+    bottom:5%;
+}
+.botcont1 img{
+display:none;
+}
+.imgtext {
+    position: absolute;
+    top: 47%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    line-height: 0.4em;
+
+}
+.container3 {
+    position: relative;
+    background-image: none;
+    background-color:white;
+    background-size:cover;
+    width: 100%;
+    padding-bottom:280%;
+    padding-right:.5em;
+    left:0%;
+}
+
+.topcont2 {
+    position: absolute;
+    float:left;
+    background-color:none;
+    width: 100%;
+    top:-1em;
+}
+.topcont2 h2 {
+text-align:center;
+font-size: 9vw;
+background-color:none;
+font-variant: small-caps;
+}
+.stexthide h3 {
+    font-variant:small-caps;
+    font-size:2em;
+    color:#686868;
+    text-align:center;
+}
+#nr1text {
+    width: 70%;
+}
+.stexthide {
+    font-family:sans-serif;
+    display:block;
+    font-size:14px;
+    color:#464646;
+    line-height: 2em;
+    font-weight: 500;
+    background-color:none;
+    width: 70%;
+    margin:auto;
+}
+.botcont2 {
+    position: absolute;
+    float:left;
+    top:10%;
+    background-color:white;
+    width:90%;
+    height: auto;
+    padding-bottom: 100%;
+    text-align: left;
+
+}
+.serv1 {
+    position: absolute;
+    width:90%;
+    height:75%;
+    background: white;
+    top:10%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: -2px 12px 23px -2px rgba(231, 169, 156, 0.05), 12px 20px 23px -2px rgba(231, 169, 156, 0.05);
+    border-radius:2%;
+    
+}
+.serv1:hover span {
+    display:none;
+}
+.serv2:hover span {
+    display:none;
+}
+.serv3:hover span {
+    display:none;
+}
+.serv1:hover .iconify {
+    display:none;
+}
+.serv2:hover .iconify {
+    display:none;
+}
+.serv3:hover .iconify {
+    display:none;
+}
+.serv1:hover:before {
+    display:none;
+}
+.serv2:hover:before {
+    display:none;
+}
+.serv3:hover:before {
+    display:none;
+}
+#iconhide {
+    display:none;
+}
+.serv2 {
+    position: absolute;
+    width:90%;
+    height:65%;
+    background: white;
+    top:90%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: -2px 12px 23px -2px rgba(231, 201, 156, 0.05), 12px 20px 23px -2px rgba(225, 203, 243, 0.05);
+    border-radius:0%;
+    
+}
+.serv3 {
+    position: absolute;
+    width:90%;
+    height:70%;
+    background: white;
+    top:160%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-shadow: -2px 12px 23px -2px rgba(225, 203, 243, 0.05), 12px 20px 23px -2px rgba(225, 203, 243, 0.05);
+    border-radius:0%;
+    
+}
+.serv1 p, .serv2 p, .serv3 p {
+    display:none;
+}
+.serv1:hover, .serv2:hover, .serv3:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1); 
+}
+.container4 {
+    position: relative;
+    background-color: none;
+    width: 100%;
+}
+.topcont3 {
+    position: absolute;
+    float:left;
+    background-color:none;
+    width: 100%;  
+}
+.hidetext {
+    display:none;
+}
+.topcont3 h2 {
+    text-align:center;
+    font-size: 8vw;
+    font-variant: small-caps;
+    background-color:none;
+    width:100%;
+    position: absolute;
+    
+}
+.botcont3 {
+    background-image:url("mobbg3.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+    width: 100%;
+    padding-right:.5em;
+    height:90em;
+    display: block; /* remove extra space below image */
+    padding-top:5em;
+}
+.botcont3 img {
+    width: 100%;
+    height: 38em;
+}
+.hideimg {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+.botcont31 {
+    padding:3%;
+    padding-top:30%;
+    background-color:none;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    text-align:center;
+}
+.fttitle {
+    position: absolute;
+    width: 80%;
+    padding-bottom:25%;
+    top:0.1em;
+    background-color:none;
+    left: 10%;
+}
+.fttitle p {
+position: absolute;
+font-size:8vw;
+font-variant: small-caps;
+font-weight: bold;
+right:14%;
+width: 100%;
+}
+.ft1  {
+    position: absolute;
+    width: 100%;
+    top:10%;
+    background-color:none;
+}
+.ft1 p {
+    position: absolute;
+    left:8%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:4vw;
+    }
+.ft2  {
+    position: absolute;
+    width: 50%;
+    top:9%;
+    background-color:none;
+    opacity: 0.5;
+}
+.ft2 p {
+position: absolute;
+left:16%;
+font-size:2.5vw;
+text-align:left;
+font-weight: lighter;
+}
+.ft4 {
+    position: absolute;
+    width: 50%;
+    top:13%;
+    background-color:none;
+    opacity: 0.5;
+}
+.ft4 p {
+    position: absolute;
+    left:16%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+}
+
+.ft5 {
+    position: absolute;
+    width: 50%;
+    top:18%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft5 p {
+    position: absolute;
+    left:16%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft6 {
+    position: absolute;
+    width: 50%;
+    top:23%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft6 p {
+    position: absolute;
+    left:16%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft7 {
+    position: absolute;
+    width: 50%;
+    top:28%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft7 p {
+    position: absolute;
+    left:16%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft8 {
+    position: absolute;
+    width: 100%;
+    top:31%;
+    background-color:none;
+}
+.ft8 p {
+position: absolute;
+bottom: 4%;
+left:60%;
+font-variant: small-caps;
+font-weight: bold;
+font-size:4vw;
+}
+.ft9 {
+    position: absolute;
+    width: 100%;
+    top:30%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft9 p {
+    position: absolute;
+    left:60%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+    .ft10 {
+        position: absolute;
+        width: 100%;
+        top:39%;
+        background-color:green;
+    }
+    .ft10 p {
+    position: absolute;
+    bottom: 4%;
+    left:10%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:4vw;
+    }
+    .ft101 {
+        position: absolute;
+        width: 100%;
+        top:38%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft101 p {
+        position: absolute;
+        left:9.5%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+    }
+.ft11 {
+    position: absolute;
+    width: 100%;
+    top:34%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft11 p {
+    position: absolute;
+    left:60%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft12 {
+    position: absolute;
+    width: 100%;
+    top:38%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft12 p {
+    position: absolute;
+    left:60%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft13 {
+    position: absolute;
+    width: 100%;
+    top:10%;
+    background-color:green;
+
+}
+.ft13 p {
+position: absolute;
+bottom: 4%;
+left:60%;
+font-variant: small-caps;
+font-weight: bold;
+font-size:4vw;
+}
+.ft14 {
+    position: absolute;
+    width: 100%;
+    top:9%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft14 p {
+    position: absolute;
+    left:60%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+.ft15 {
+    position: absolute;
+    width: 100%;
+    top:13%;
+    background-color:green;
+    opacity: 0.5;
+}
+.ft15 p {
+    position: absolute;
+    left:60%;
+    font-size:2.5vw;
+    text-align:left;
+    font-weight: lighter;
+    }
+    .lptitle {
+        position: absolute;
+        width: 80%;
+        padding-bottom:25%;
+        top:50%;
+        background-color:none;
+        left: 16%;
+    }
+    .lptitle p {
+        position: absolute;
+        font-size:8vw;
+        font-variant: small-caps;
+        font-weight: bold;
+        width: 100%;
+        right:14%;
+        background-color:none;
+    }
+    .ft16 {
+        position: absolute;
+        width: 100%;
+        top:62%;
+        background-color:none;
+    }
+    .ft16 p {
+    position: absolute;
+    bottom: 4%;
+    left:10%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:4vw;
+    }
+    .ft17 {
+        position: absolute;
+        width: 50%;
+        top:60%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft17 p {
+        position: absolute;
+        left:20%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft18 {
+        position: absolute;
+        width: 100%;
+        top:69%;
+        background-color:green;
+
+    }
+    .ft18 p {
+    position: absolute;
+    bottom: 4%;
+    left:10%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:4vw;
+    }
+    .ft19 {
+        position: absolute;
+        width: 50%;
+        top:67%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft19 p {
+        width:100%;
+        position: absolute;
+        left:20%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        background-color:none;
+        }
+    .ft20 {
+        position: absolute;
+        width: 100%;
+        top:76%;
+        background-color:green;
+    }
+    .ft20 p {
+    position: absolute;
+    bottom: 4%;
+    left:10%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:4vw;
+    }
+    .ft21 {
+        position: absolute;
+        width: 50%;
+        top:74%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft21 p {
+        position: absolute;
+        left:20%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft22 {
+        position: absolute;
+        width: 100%;
+        top:83%;
+        background-color:green;
+    }
+    .ft22 p {
+    position: absolute;
+    bottom: 4%;
+    left:10%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:4vw;
+    }
+    .ft23 {
+        position: absolute;
+        width: 100%;
+        top:81%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft23 p {
+        position: absolute;
+        left:10%;
+        font-size:2.5vw;
+        font-weight: lighter;
+        }
+    .ft24 {
+        position: absolute;
+        width: 100%;
+        top:81%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft24 p {
+        position: absolute;
+        left:40%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft25 {
+        position: absolute;
+        width: 100%;
+        top:90%;
+        background-color:green;
+    }
+    .ft25 p {
+    position: absolute;
+    bottom: 4%;
+    left:10%;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:4vw;
+    }
+    .ft26 {
+        position: absolute;
+        width: 100%;
+        top:88%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft26 p {
+        position: absolute;
+        left:10%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft27 {
+        position: absolute;
+        width: 100%;
+        top:92%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft27 p {
+        position: absolute;
+        left:10%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft28 {
+        position: absolute;
+        width: 100%;
+        top:17%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft28 p {
+        position: absolute;
+        left:60%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .ft29 {
+        position: absolute;
+        width: 100%;
+        top:21%;
+        background-color:green;
+        opacity: 0.5;
+    }
+    .ft29 p {
+        position: absolute;
+        left:60%;
+        font-size:2.5vw;
+        text-align:left;
+        font-weight: lighter;
+        }
+    .worktext p{
+        font-size:3vw;
+        color:#3D3C3C;
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+
+}

@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <!--CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <style type="text/css">
+    </style>
+
+</head>
+<body>
+
+
+    <div class="sidenav">
+        <a href="#top">To the top</a>
+    </div>
+
+    <!--<div class="item" data-aos="fade-up">fading up</div>
+    <div class="item" data-aos="fade-up">fading up</div>
+    <div class="item" data-aos="fade-up">fading up</div>
+    <div class="item" data-aos="fade-up">fading up</div>
+    <div class="item" data-aos="fade-up">fading up</div>
+    <div class="item" data-aos="fade-up">fading up</div>
+    <div class="item" data-aos="fade-up">fading up</div>-->
+    <div class="namepic">
+        <img src="Group 1.png" alt="ppic" width="734" height="536">
+
+        <div class="headline">
+            <img src="Line 1.png" alt="line" width="470" height="7">
+        </div>
+    </div>
+    <h1 id="top"></h1>
+    <div class="top">
+        <div class="portfolio2">portfolio</div>
+
+
+        <div class="name"></div>
+
+        <div class="profpic">
+            <img src="pp4.jpg" alt="pp" width="79" height="105">
+        </div>
+
+    </div>
+
+    <div class="item" data-aos="fade-down">.</div>
+    <div class="item" data-aos="fade-down">.</div>
+    <div class="item" data-aos="fade-down">.</div>
+    <div class="item" data-aos="fade-down">.</div>
+    <div class="item" data-aos="fade-down">.</div>
+
+    <div class="item3" data-aos="fade-down">.</div>
+    <div class="item3" data-aos="fade-down">.</div>
+    <div class="item3" data-aos="fade-down">.</div>
+    <div class="item3" data-aos="fade-down">.</div>
+    <div class="item3" data-aos="fade-down">.</div>
+    <div class="item3" data-aos="fade-down">.</div>
+    <div class="item3" data-aos="fade-down">.</div>
+
+    <div class="item4" data-aos="fade-up">k</div>
+
+
+    <div class="item2" data-aos="fade-up" data-aos-offset="200" data-aos-duration="2500">.</div>
+    <div class="item2" data-aos="fade-up">.</div>
+    <div class="item2" data-aos="fade-down">.</div>
+    <div class="item2" data-aos="fade-up">.</div>
+
+    <div class="item5" data-aos="fade-up" data-aos-anchor="#example-anchor"
+         data-aos-offset="500"
+         data-aos-duration="500">l</div>
+
+
+
+
+
+
+    <div class="about">
+        <img src="line2.png" alt="line" width="550" height="20">
+        <div class="hi" data-aos="fade-right" data-aos-duration="2500">hi,</div>
+        <div class="abouttext" data-aos="fade-right" data-aos-duration="3000">I'm a MSc student<br /> in <b>Interaction Technology and <br />Design</b> just out here trying to make a portfolio</div>
+    </div>
+
+    <!--<button type="button" class="collapsible">Open Collapsible</button>
+    <div class="content">
+        <p>Lorem ipsum...</p>
+    </div>-->
+
+    <div class="projects">
+        <img src="line2.png" alt="line" width="550" height="20">
+        <div class="project" data-aos="fade-right" data-aos-duration="2500"><c>
+    projects,
+</c>
+        </div>
+        <div class="projecttext" data-aos="fade-left" data-aos-duration="3000">Here I should have some projects, <br />next time </div>
+
+    </div>
+
+
+    <div class="box">
+        Let's create.
+    </div>
+    <div class="box2">
+        Let's create.
+    </div>
+    <div class="box3">
+        Let's create.
+    </div>
+    <div class="box4">
+        <a href="mail">
+            bohlinjulia@gmail.com
+        </a>
+        <img src="Line 1.png" alt="line" width="470" height="7">
+    </div>
+    <div class="box5">contact me :</div>
+
+
+
+
+
+    <!--<div class="bgpicture" data-aos="fade-up" data-aos-duration="3000">
+        <img src="bbg.png" alt="bgp" style="width:120%">
+        <div class="line">
+            <img src="whiteline.png" alt="line" width="550" height="10">
+        </div>
+
+        <div class="contacts">contacts</div>
+        <div class="contacttext1">
+
+            Let's create.
+
+
+        </div>
+        <div class="contacttext">
+
+
+            this is my email
+            <a href="mail">bohlinjulia@gmail.com</a>
+
+        </div>
+    </div>-->
+    <!--LINK JQUERY-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!--PERSONAL SCRIPT JavaScript-->
+    <script type="text/javascript">
+        // Select all links with hashes
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function (event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function () {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+
+
+        $(window).scroll(function () {
+            $(".top").css("opacity", 1 - $(window).scrollTop() / 350);
+        });
+
+
+        AOS.init({
+            duration: 1200,
+        })
+
+        var $cursor = $('.cursor');
+
+        function moveCursor(e) {
+            $cursor.addClass('is-moving');
+            $cursor.css({ "top": e.pageY, "left": e.pageX });
+
+            clearTimeout(timer2);
+
+            var timer2 = setTimeout(function () {
+                $cursor.removeClass('is-moving');
+            }, 300);
+        }
+
+        $(window).on('mousemove', moveCursor);
+    </script>
+
+</body>
+</html>

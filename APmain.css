@@ -1,0 +1,816 @@
+﻿moohtml {
+  scroll-behavior: smooth;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+body {
+	font-family: Arial, sans-serif;
+	background-color:green;
+}
+.topnav {
+background-color: white;
+position: fixed;
+top: 0;
+right: 0;
+width:100%;
+}
+
+.topnav .topname a{
+float: left;
+  color: black;
+  text-decoration: none;
+  font-size: 0.75em;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+.topnav a {
+float: right;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 0.75em;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+
+}
+
+/*--------------------------------Medium/landsc.Tablet 768 and up----------------------------------*/
+
+@media only screen and (min-width: 768px) {
+body {
+font-family: system-ui;
+	background-color:white;
+}
+
+.topnav {
+background-color: white;
+position: fixed;
+top: 0;
+right: 0;
+width:100%;
+z-index:100;
+}
+
+.topnav .topname a{
+float: left;
+  color: black;
+  text-decoration: none;
+  font-size: 0.7em;
+  width: 12%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+.topnav a {
+float: right;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+.topnav a:hover {
+color:#CF6212;
+}
+
+
+.headcont  {
+position: absolute;
+	background-color: white;
+	top: 7%;
+	left: 5%;
+	width: 90%;
+	height: 80%;
+	z-index:50;
+
+}
+
+.headcont .titlecont {
+position:relative;
+	left:7%;
+	top:7%;
+	width:90%;
+	height:8%;
+	background-color:none;
+	z-index:52;
+}
+
+.headcont .titlecont h1 {
+font-size:2.2em;
+color:#CF6212;
+}
+
+
+.headcont .childcont1  {
+position: absolute;
+align: left;
+	background-color: white;
+	width: 50%;
+	height: 100%;
+	z-index:51;
+		
+}
+
+.headcont .childcont1 p {
+position: absolute;
+align: centered;
+padding: 5%;
+top: 8%;
+font-size: 1.2em;
+left:10%;		
+}
+
+
+.headcont .childcont1 a {
+
+font-weight: 600;
+color: black;
+
+		
+}
+
+
+.headcont .childcont2  {
+position: absolute;
+align: right;
+	background-color: white;
+	right: 0%;
+	width: 50%;
+	height: 100%;
+	z-index:51;
+		
+}
+.headcont .xcont {
+	position:absolute;
+	background-color:none;
+	width:50%;
+	z-index:57;
+top:90%;
+	
+
+}
+
+.headcont .xcont ,p1, p2, p3 {
+color:#CF6212;
+position:relative;
+text-align:center;
+}
+
+
+
+
+.headcont .childcont2 img {
+position: absolute;
+width: 70%;
+  height: auto;
+left: 3%;
+top: 20%;
+		
+}
+
+/*------- second section ------------*/
+
+.secondcont  {
+position: absolute;
+	background-color: none;
+	left: 5%;
+	top: 100%;
+	width: 90%;
+	height: 100%;
+	z-index:56;
+}
+
+
+
+.secondcont .logoholder {
+	padding-bottom: 10%;
+	top:15%;
+	left:0%;
+	width:92%;
+	position:absolute;
+	background-color:white;
+}
+
+.secondcont .logoholder .logotext {
+position:relative;
+background-color: none;
+display:inline-block;
+padding-bottom:2%;
+width:90%;
+padding-right:4%;
+
+}
+
+.secondcont .logoholder .logotext p {
+color:#A8AEB5;
+text-align: left;
+padding-left:1em;
+font-size:1.2em;
+font-weight:400;
+}
+
+.secondcont .logoholder img {
+	
+	position:relative;
+	background-color:none;	
+	max-width:10%;	
+	height:auto;
+}
+
+.fill {
+	padding:10%;
+	background-color:none;
+	height:50%;
+}
+
+.secondcont h1 {
+position:absolute;
+background-color:none;
+width:100%;
+bottom:7%;
+left:0%;
+margin: auto 0;
+text-align: center;
+font-size:2.5em;
+font-weight:500;
+}
+
+.secondcont .servicecont1  {
+	position:relative;
+	float:left; 
+    width:30%;
+    height:40%;
+	top: 30%;	
+	transition: transform .3s;
+	perspective: 1000px;
+	background-color:none;
+}
+
+
+.secondcont .servicecont2  {
+	position:relative;
+	float:left; 
+    width:30%;
+    height:40%;
+	margin-left:5%;
+	top: 30%;
+	transition: transform .3s;
+	perspective: 1000px;
+	background-color:none;
+		
+}
+.secondcont .servicecont3  {
+    position:relative;
+	float:right;
+    width:30%;
+    height:40%;
+	top: 30%;	
+	transition: transform .3s;
+	perspective: 1000px;
+	background-color:none;
+}
+
+.secondcont .servicecont3:hover, .servicecont2:hover, .servicecont1:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+
+.secondcont .servicecont1 img, .servicecont2 img, .servicecont3 img  {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;	
+  height:auto;
+  cursor: pointer;  
+}
+
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+
+
+.front, .back , .back2 , .back3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  backface-visibility:hidden;
+}
+.front p {
+	font-weight:700;
+	font-size:1.2em;
+}
+
+
+.back {
+  background-color:none;
+  position:absolute;
+  transform: rotateY(180deg);
+  cursor:pointer;
+  width:100%;
+  margin-top:5%;
+  border-radius: 10%;
+}
+
+.back2 {
+  background-color:none;
+  position:absolute;
+  transform: rotateY(180deg);
+  cursor:pointer;
+  width:100%;
+  margin-top:5%;
+  border-radius: 10%;
+}
+
+.back3 {
+  background-color:none;
+  position:absolute;
+  transform: rotateY(180deg);
+  cursor:pointer;
+  width:100%;
+  margin-top:5%;
+  border-radius: 10%;
+}
+
+
+.back p, .back2 p, .back3 p {
+background-color:none;
+width:80%;
+ text-align:center;
+ font-size:0.75em;
+}
+
+
+
+/*------- third section ------------*/
+.thirdcont {
+	background-color:yellow;
+	background-size:100%;
+	position:absolute;
+	margin-top:140em;
+	height:140em;
+	width:100%;
+	right:0.00000001%;
+
+}
+
+.titlebox {
+	position:relative;
+	width:100%;
+	background-color:white;
+	margin-bottom:5em;
+}
+.titlebox h1{
+	margin: auto 0;
+text-align: center;
+font-size:2.5em;
+font-weight:500;
+}
+
+
+
+.box1 {
+	position:relative;
+	width:100%;
+	height:30%;
+	background-image: url("first.png");
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.ftbox {
+
+	background-color:white;
+	width:45em;
+	height:40em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:7em;
+	filter: drop-shadow(0 0 0.50rem #F1F1F1);
+		/*margin: 0 auto;*/
+}
+.ftbox .fttitle {
+position:absolute;
+	background-color:none;
+	top:-15%;
+	margin-left: -3em;
+	
+}
+.fttitle p {
+	font-size:2em;
+}
+
+
+.th1 {
+	width:100%;
+	height:9%;
+	background-color:none;
+
+}
+.th12 {
+position:relative;
+	float:left; 
+	width:27%;
+	height:100%;
+	background-color:none;
+
+}
+.th13 {
+	width:53%;
+	height:100%;
+	background-color:white;
+position:relative;
+	float:left; 
+
+}
+.th14 {
+	width:20%;
+	height:50%;
+	background-color:white;
+	position:relative;
+	float:right;
+	margin-top:0.7em;
+}
+.th15 {
+	position:relative;
+	float:left;
+	width:100%;
+	height:5em;
+	background-color:yellow;
+}
+.th15tit {
+position:absolute;
+	width:20%;
+	height:2em;
+	background-color:pink;
+	margin-top:1.2em;
+	margin-left:0.2em;
+}
+.th12 p {
+	color:black;
+	margin: 0;
+	margin-left:1em;
+}
+.th13 p {
+color:#CF6212;
+text-align:center;
+margin-top:4%;
+letter-spacing: 0.2em;
+}
+.th14 p {
+color:black;
+margin: 0;
+text-align:left;
+margin-right:1em;
+}
+
+
+
+
+.th2 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+
+.th3 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th4 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th5 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th6 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th7 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th8 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th9 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th10 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+.th11 {
+	width:100%;
+	height:9%;
+	background-color:none;
+}
+
+
+
+
+.box2 {
+	position:relative;
+	width:100%;
+	height:50%;
+	background-image: url("sec.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tpbox {
+	position:absolute;
+	background-color:white;
+	width:44em;
+	height:40em;
+	display: block;
+	margin-left: -22em;
+	top:55%;
+	left:50%;
+	filter: drop-shadow(0 0 0.50rem #F1F1F1);
+		/*margin: 0 auto;*/
+}
+.tpbox .tptitle {
+	background-color:none;
+	margin-top: -6em;
+	margin-left: -3em;
+}
+.tptitle p {
+	font-size:2em;
+}
+.tp8 {
+position:relative;
+	float:left;
+	width:100%;
+	height:5em;
+	background-color:none;
+	margin-top:1em;
+}
+.tp9 {
+position:relative;
+	float:left;
+	width:100%;
+	height:5em;
+	background-color:none;
+	margin-top:1em;
+}
+.tp10 {
+position:relative;
+	float:left;
+	width:100%;
+	height:5em;
+	background-color:none;
+	margin-top:3em;
+}
+
+
+
+
+
+/*------- fourth section ------------*/
+.fourthcont {
+	position: absolute;
+	background-color:pink;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	right:0%;
+	top: 810%;
+	width: 100%;
+	height: 60%;
+	z-index:60;
+
+}
+
+.fourthcont h3 {
+	color:black;
+	font-size:2em;
+	width:100%;
+	background-color:white;
+	text-align:center;
+	font-weight:500;
+	padding-bottom:3%;
+}
+
+.fourthcont img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:20%;	
+	height:auto;
+}
+.fourthcont a {
+	position: absolute;
+	color:black;
+	font-size:2.7em;
+	width:90%;
+	left:5%;
+	background-color:none;
+	text-align:center;
+	padding-bottom:10%;
+	padding-top:6%;
+	text-decoration: underline;
+	transition: transform .3s;
+	
+}
+
+.fourthcont a:hover {
+color:#CF6212;
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01); 
+}
+
+}
+
+
+
+/*----------------------------------Laptop/Desktop 992 and up-------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+body {
+	background-color:pink;
+}
+
+.headcont .childcont1 p {
+position: absolute;
+align: centered;
+padding: 5%;
+top: 7%;
+font-size: 1.4em;
+left:10%;	
+}
+
+.headcont .titlecont h1 {
+font-size:3em;
+color:#CF6212;
+}
+
+.headcont .childcont ,p1, p2, p3 {
+padding-right:1em;
+
+}
+
+.headcont .xcont {
+
+top:90%;
+
+}
+
+.secondcont  {
+	top: 120%;
+	height: 90%;
+}
+.secondcont h1 {
+	font-size:3.3em;
+	bottom:5%;
+}
+.secondcont .logoholder .logotext p {
+	font-size:1.4em;
+}
+
+.thirdcont  {
+
+}
+
+.first {
+height: 26%;
+
+}
+.second{
+height: 25%;
+
+}
+.third {
+height: 49%;
+}
+
+.fourthcont {
+
+	top: 600%;
+	height:50%;
+}
+
+
+.back p, .back2 p, .back3 p {
+font-size:0.9em;
+}
+
+}
+
+/*----------------------------------Large Desktop 1200 and up-------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+body {
+	background-color:white;
+}
+.headcont .childcont1 p {
+position: absolute;
+align: centered;
+padding: 5%;
+top: 15%;
+font-size: 1.5em;
+left:10%;		
+}
+
+.headcont .titlecont h1 {
+font-size:3.5em;
+color:#CF6212;
+}
+
+.headcont .childcont ,p1, p2, p3 {
+padding-right:2em;
+}
+
+.headcont .childcont2 img {
+top: 16%;		
+}
+
+.headcont .xcont {
+
+top:90%;
+
+}
+
+.secondcont  {
+	top: 110%;
+	height: 100%;
+}
+.secondcont h1 {
+	font-size:3.6em;
+	top:93%;
+}
+
+
+.secondcont .logoholder img {
+	
+	position:relative;
+	background-color:white;
+	padding-right:1%;
+}
+.secondcont .logoholder .logotext p {
+	font-size:1.7em;
+}
+
+.thirdcont  {
+
+margin-top:180em;
+}
+
+.thirdcont h1 {
+	font-size:3.6em;
+}
+.first {
+height:28%;
+
+}
+.second{
+height:27%;
+
+}
+.third {
+height:45%;
+}
+
+.fourthcont {
+
+	top: 650%;
+}
+
+
+.back p, .back2 p, .back3 p {
+font-size:1em;
+background-color:yellow;
+width:50%;
+}
+
+}
+
+
+
